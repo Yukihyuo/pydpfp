@@ -19,7 +19,7 @@ pip install .
 ### Instalación directa desde GitHub
 
 ```bash
-pip install git+https://github.com/USUARIO/REPOSITORIO.git
+pip install git+https://github.com/Yukihyuo/pydpfp.git
 ```
 
 ## Uso Rápido (Quickstart)
