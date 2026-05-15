@@ -13,8 +13,8 @@ from .dpfpdd_wrapper import FingerPrintReader as _FingerPrintReader
 PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Default DLL names expected to live in this package folder.
-READER1_DLL_NAME = "lector1.dll"
-READER2_DLL_NAME = "lector2.dll"
+READER1_DLL_NAME = "dpfj.dll"
+READER2_DLL_NAME = "dpfpdd.dll"
 
 DEFAULT_READER1_DLL_PATH = os.path.join(PACKAGE_DIR, READER1_DLL_NAME)
 DEFAULT_READER2_DLL_PATH = os.path.join(PACKAGE_DIR, READER2_DLL_NAME)
